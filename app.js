@@ -33,6 +33,39 @@ sqr0El.addEventListener('click', () => {
         return
     } else {
         sqr0El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -47,6 +80,39 @@ sqr1El.addEventListener('click', () => {
         return
     } else {
         sqr1El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -61,6 +127,39 @@ sqr2El.addEventListener('click', () => {
         return
     } else {
         sqr2El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -75,6 +174,39 @@ sqr3El.addEventListener('click', () => {
         return
     } else {
         sqr3El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -89,6 +221,39 @@ sqr4El.addEventListener('click', () => {
         return
     } else {
         sqr4El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -103,6 +268,39 @@ sqr5El.addEventListener('click', () => {
         return
     } else {
         sqr5El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -117,6 +315,39 @@ sqr6El.addEventListener('click', () => {
         return
     } else {
         sqr6El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -131,6 +362,39 @@ sqr7El.addEventListener('click', () => {
         return
     } else {
         sqr7El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
@@ -145,6 +409,39 @@ sqr8El.addEventListener('click', () => {
         return
     } else {
         sqr8El.textContent = currentPlayer
+        if (sqr0El.textContent === sqr1El.textContent && sqr1El.textContent === sqr2El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr3El.textContent === sqr4El.textContent && sqr4El.textContent === sqr5El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr6El.textContent === sqr7El.textContent && sqr7El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr3El.textContent && sqr3El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr1El.textContent === sqr4El.textContent && sqr4El.textContent === sqr7El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr5El.textContent && sqr5El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr0El.textContent === sqr4El.textContent && sqr4El.textContent === sqr8El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        } else if (sqr2El.textContent === sqr4El.textContent && sqr4El.textContent === sqr6El.textContent) {
+            messageEl.textContent = `${currentPlayer} wins!`
+            isGameOver = true
+            return
+        }
         if(currentPlayer === 'X'){
             currentPlayer = 'O'
         } else {
